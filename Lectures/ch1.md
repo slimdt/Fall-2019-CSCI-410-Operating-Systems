@@ -68,6 +68,7 @@ Computer system can be divided into four components:
 # Computer Startup
 + bootstrap program is loaded at power-up or reboot
   - Typically stored in ROM or EPROM, generally known as firmware
+  1[rom](https://4.bp.blogspot.com/-YbcCCn2JZT0/XELSHYwFX7I/AAAAAAAAArE/hOZRGco5gC4XJoTMpwEuJCleTNCcNO6ygCLcBGAs/s1600/20190119_125335.png)
   - Initializes all aspects of system
   - Loads operating system kernel and starts execution
 # Computer System Organization
@@ -86,7 +87,7 @@ Computer system can be divided into four components:
 
 + I/O is from the device to local buffer of a controller
 
-+ Device controller informs CPU that it has finished its operation by causing an interrupt
++ Device controller informs CPU that it has finished its operation by causing an **interrupt**
 
 ### Common Functions of Interrupts
 + Interrupt transfers control to the interrupt service routine generally, through the interrupt vector, which contains the addresses of all the service routines
@@ -160,7 +161,7 @@ Computer system can be divided into four components:
   - Volatility
 
 + Caching – copying information into faster storage system; main memory can be viewed as a cache for secondary storage
-![storage_hierachy](../Images/ch1-storage_heirachy.png)
+![storage_hierachy](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/images/Chapter1/1_4_StorageDeviceHierarchy.jpg)
 
 ### Sample Speeds
 + Writes are expensive!
@@ -190,7 +191,7 @@ Computer system can be divided into four components:
   - Read 1 MB sequentially from network 10,000,000 ns 
   - Read 1 MB sequentially from disk 30,000,000 ns 
   - Send packet CA->Netherlands->CA 150,000,000 ns
-+ caching
++ **caching**
   - Important principle, performed at many levels in a computer (in hardware, operating system, software)
 
   - Data in use copied from slower to faster storage temporarily
@@ -214,8 +215,9 @@ Computer system can be divided into four components:
     2. Economy of scale
     3. Increased reliability – graceful degradation or fault tolerance
   - Two types:
-    1. Asymmetric Multiprocessing
-    2. Symmetric Multiprocessing
+    1. Asymmetric Multiprocessing: boss-worker realtion
+      
+    2. Symmetric Multiprocessing: peers,no boss-worker relation
     ![ch1-symmetic_multiprocessor](../Images/ch1-symmetic_multiprocessor.png)
 + multicore systems
 ![ch1-dual_core](../Images/ch1-dual_core.png)
@@ -228,6 +230,7 @@ Computer system can be divided into four components:
   - Some clusters are for high-performance computing (HPC)
   - Applications must be written to use parallelization
   ![cluster](../Images/ch1-cluster.png)
+  
 # Operating System Structure
 
 + **Multiprogramming** needed for efficiency
