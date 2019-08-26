@@ -97,8 +97,8 @@ now, your computer is ready.
 How is the computing resource/CPU is utilized?
 
 **interrupt**
-    - hardware interrupt by sending a signal to CPU
-    - software interrupt by executing a **system call**
+    + hardware interrupt by sending a signal to CPU
+    + software interrupt by executing a **system call**
     
 #### Storage organization
 ![](https://camo.githubusercontent.com/a32f325851f11af2810abe9d64f04d7e94c35bb4/687474703a2f2f7777772e63732e7569632e6564752f7e6a62656c6c2f436f757273654e6f7465732f4f7065726174696e6753797374656d732f696d616765732f43686170746572312f315f345f53746f726167654465766963654869657261726368792e6a7067)
