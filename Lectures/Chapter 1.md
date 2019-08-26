@@ -88,10 +88,10 @@ Resource utilization/Resouce allocator
 + CPU and controllers compete for memory cycles.
 #### What will happen if you push the power button?
 **Bootstrap program** will be run and it
-    + is stored in ROM or EEPROM
-    + initilize the system
-    + locate and load kernel
-    + some system programs
+    <li>is stored in ROM or EEPROM</li>
+    <li>initilize the system</li>
+    <li>locate and load kernel</li>
+    <li> some system programs</li>
 now, your computer is ready.
 #### Interrupt organization
 How is the computing resource/CPU is utilized?
