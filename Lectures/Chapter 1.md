@@ -155,7 +155,40 @@ They can be more efficient than multiple chips with single cores because on-chip
 
 
 #### blade server
+[wikipeida](https://en.wikipedia.org/wiki/Blade_server)
+
+Blade servers have many components removed to save space, minimize power consumption and other considerations, while still having all the functional components to be considered a computer.
+
 #### cluster systems
 
-### OS structure
+![cluster](../Images/ch1-cluster.png)
+
+### 1.4 OS structure
+An OS provides an environment within which programs are executed.
+#### multiprogramming
+1. job pool
+    + The jobs(code and data) are kept in the job pool on the disk.
+2. subset of job pool
+    + The OS keep a subset of the jobs in the memory(memory is not large enough for all jobs).
+3. The cpu switches to another job if the current job has to wait for some task.
+#### multitasking/time-sharing
+1. multitasking/time-sharing is an extension of multiprogramming.
+2. cpu switches jobs so frequently.
+3. multitasking/time-sharing requires an interactive computer system(keyborad, mouse, touch screen...).
+4. concept of **clock**.
+
+#### job-scheduling
+How to choose the subset of jobs in the job pool to memory?(chapter 6)
+#### memory management
+How to arrange the jobs in memory?(chapters 7,8)
+#### CPU-scheduling
+Which job in memory will run first?(chapter 6)
+#### swapping/virtual memory
+How to swap processes in and out memory?
+
+How to run programs that are larger than the memory?
+
+
+
+
 
