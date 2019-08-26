@@ -1,6 +1,10 @@
-# Lecutre 1: Course Overview
+# CSCI 410 Operating Systems
+# Fall 2019
+# Dr. Ning Zhang
 
-## [Syllabus](https://www.google.com)
+# Lecutre 1: Course Overview 08/22/2019
+
+## [Syllabus](https://zhangningsau.github.io/CSCI410/Fall2019/Syllabus.html)
 ## Topics to be covered
 ### Overview (Ch 1-2)
 1. Fetures of OS
@@ -35,7 +39,7 @@ Protection is a mechanism for **controlling** the access of programs, processes,
 [Linux virtual machine](http://people.westminstercollege.edu/faculty/ggagne/osc/vm/index.html)
 
 
-## Part 1: Overview/Chapter 1: Introduction
+## Chapter 1: Introduction
 1. OS is an intermediary between users and computer hardwares.
 2. OS is software.
 3. The goal of OS should be well-defined before the design begins (OS vary in diffrent tasks).
