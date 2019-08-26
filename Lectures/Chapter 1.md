@@ -111,7 +111,7 @@ CPU can load instructions only from memory, so any program to run must be store 
  2. secondary storage: other storages under main memory
  
 **volatile** storage:
-loses conent without power
+loses content without power
 **non-volatile** storage:
 the data is always there.
 
@@ -128,10 +128,10 @@ A device **driver** understands the a device or same-type devices and provides t
 + interrupt-driven I/O for small amounts of data
 + direct memory access for block data
 
-### Computer architecture
+### Computer-system architecture
 #### Single processor systems
 #### Multiple processor systems
-1. asymmetic multiprocessing
+1. asymmetric multiprocessing
 boss-workers relationship
 2. symmetric multiprocessing
 All are peers.
@@ -140,6 +140,13 @@ All are peers.
 multiprocessor vs multicore
 ![](https://slideplayer.com/slide/5832436/19/images/3/Multi-Core+vs.+Multi-Processor.jpg)
 Multicore is better than multiprocessors with one single computing core on each chip due to the faster communication.
+
+**advantages**
++ Increased throughput. By increasing the number of processors, we expect to get more work done in less time. The speed-up ratio with N processors is not N, however; rather, it is less than N. 
++ Economy of scale. Multiprocessor systems can cost less than equivalent multiple single-processor systems.
++ Increased reliability. If functions can be distributed properly among several processors, then the failure of one processor will not halt the system, only slow it down.
+
+
 #### blade server
 #### cluster systems
 
