@@ -133,15 +133,22 @@ A device **driver** understands the a device or same-type devices and provides t
 #### Multiple processor systems
 1. asymmetric multiprocessing
 boss-workers relationship
++ A boss controls the system.
++ The other processors either look to the boss or have predefined task.
 2. symmetric multiprocessing
 All are peers.
 ![](http://download.oracle.com/docs/cd/A57673_01/DOC/server/doc/SPS73/image019.gif)
 
 multiprocessor vs multicore
-![](https://slideplayer.com/slide/5832436/19/images/3/Multi-Core+vs.+Multi-Processor.jpg)
-Multicore is better than multiprocessors with one single computing core on each chip due to the faster communication.
 
-**advantages**
+multicore: multiple cores on a single chip
+
+They can be more efficient than multiple chips with single cores because on-chip communication is faster than between-chip communication. In addition, one chip with multiple cores uses significantly less power than multiple single-core chips.
+
+![](https://slideplayer.com/slide/5832436/19/images/3/Multi-Core+vs.+Multi-Processor.jpg)
+
+
+**advantages of multiprocessors**
 + Increased throughput. By increasing the number of processors, we expect to get more work done in less time. The speed-up ratio with N processors is not N, however; rather, it is less than N. 
 + Economy of scale. Multiprocessor systems can cost less than equivalent multiple single-processor systems.
 + Increased reliability. If functions can be distributed properly among several processors, then the failure of one processor will not halt the system, only slow it down.
