@@ -89,6 +89,7 @@ Resource utilization/Resouce allocator
 #### What will happen if you push the power button?
 **Bootstrap program** will be run and it
     <li>is stored in ROM or EEPROM</li>
+    ![rom](https://www.thoughtco.com/thmb/0kUhsdYcFITCzmyVm2E9RjDdIKw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Amiga_1200_Kickstart_3.0_ROMs-56b429575f9b5829f82c66bd.jpg)
     <li>initilize the system</li>
     <li>locate and load kernel</li>
     <li> some system programs</li>
