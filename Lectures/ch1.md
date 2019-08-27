@@ -68,7 +68,9 @@ Computer system can be divided into four components:
 # Computer Startup
 + bootstrap program is loaded at power-up or reboot
   - Typically stored in ROM or EPROM, generally known as firmware
-  1[rom](https://4.bp.blogspot.com/-YbcCCn2JZT0/XELSHYwFX7I/AAAAAAAAArE/hOZRGco5gC4XJoTMpwEuJCleTNCcNO6ygCLcBGAs/s1600/20190119_125335.png)
+  
+  ![rom](https://4.bp.blogspot.com/-YbcCCn2JZT0/XELSHYwFX7I/AAAAAAAAArE/hOZRGco5gC4XJoTMpwEuJCleTNCcNO6ygCLcBGAs/s1600/20190119_125335.png)
+  
   - Initializes all aspects of system
   - Loads operating system kernel and starts execution
 # Computer System Organization
